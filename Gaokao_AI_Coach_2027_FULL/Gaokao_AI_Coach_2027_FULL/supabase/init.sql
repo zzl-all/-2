@@ -1,0 +1,1 @@
+create table questions(id bigint generated always as identity primary key, content text);

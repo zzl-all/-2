@@ -1,0 +1,1 @@
+export default function AIChat(){return <div>AI助手</div>}

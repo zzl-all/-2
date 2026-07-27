@@ -1,0 +1,1 @@
+export async function POST(req:Request){return Response.json({answer:'AI分析结果'})}

@@ -1,0 +1,1 @@
+export default function Dashboard(){return <main><h1>AI学习驾驶舱</h1></main>}

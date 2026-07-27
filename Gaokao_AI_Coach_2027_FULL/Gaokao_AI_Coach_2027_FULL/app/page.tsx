@@ -1,0 +1,1 @@
+export default function Home(){return <main><h1>Gaokao AI Coach 2027</h1><p>私人高考AI备战系统</p></main>}
