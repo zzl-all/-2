@@ -1,16 +1,13 @@
+
 {
-  "name": "gaokao-ai-coach-2027",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+  "scripts": {"dev":"next dev","build":"next build","start":"next start"},
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@supabase/supabase-js": "latest",
-    "openai": "latest",
-    "recharts": "latest"
-  }
+    "next":"latest",
+    "react":"latest",
+    "react-dom":"latest",
+    "prisma":"latest",
+    "@prisma/client":"latest",
+    "openai":"latest"
+  },
+  "devDependencies": {}
 }

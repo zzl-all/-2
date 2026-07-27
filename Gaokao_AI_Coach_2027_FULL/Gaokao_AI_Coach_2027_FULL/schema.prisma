@@ -1,0 +1,30 @@
+
+generator client {
+ provider="prisma-client-js"
+}
+
+datasource db {
+ provider="sqlite"
+ url="file:./gaokao.db"
+}
+
+model User {
+ id Int @id @default(autoincrement())
+ name String
+ targetScore Int
+}
+
+model Question {
+ id Int @id @default(autoincrement())
+ subject String
+ knowledge String
+ difficulty Int
+ content String
+}
+
+model WrongQuestion {
+ id Int @id @default(autoincrement())
+ userId Int
+ questionId Int
+ reason String
+}
